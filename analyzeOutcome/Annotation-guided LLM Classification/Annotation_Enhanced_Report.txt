@@ -1,0 +1,38 @@
+======================================================================
+ANNOTATION-ENHANCED LLM CLASSIFICATION - ROUND-BY-ROUND REPORT
+======================================================================
+Model: Doubao-seed-1.6-250615
+Role: Software Requirement Classification Expert
+Total Samples: 675
+Smart Retry: Max 3 rounds
+
+NOTE: Round 1 = Initial classification (all samples)
+      Round 2 = Rethinking (only samples incorrect in Round 1)
+      Round 3 = Final thinking (only samples incorrect in Round 2)
+
+------------------------------------------------------------
+PERFORMANCE SUMMARY BY ROUND
+------------------------------------------------------------
+Round      Samples      Accuracy     Avg Conf     ECE          Pearson     
+----------------------------------------------------------------------
+Round 1     675          62.81%       91.93%     29.11%     38.72%
+Round 2     251          100.00%       88.84%     11.16%     0.00%
+
+------------------------------------------------------------
+CUMULATIVE PERFORMANCE
+------------------------------------------------------------
+Round 1: 62.81% accuracy on all 675 samples
+  → 424 samples correct, 251 samples incorrect
+Round 2: Fixed 251 samples, cumulative accuracy = 100.00%
+  → 675 samples correct, 0 samples remain incorrect
+
+------------------------------------------------------------
+KEY OBSERVATIONS
+------------------------------------------------------------
+• Sample reduction from Round 1 to Round 2: 424 samples (62.8% of total)
+• Highest accuracy: Round 2 (100.00%)
+• Best calibration (lowest ECE): Round 2 (11.16%)
+• Best confidence-accuracy correlation: Round 1 (38.72%)
+• Accuracy improvement on re-evaluated samples: +37.19%
+
+======================================================================
