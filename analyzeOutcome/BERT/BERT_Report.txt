@@ -1,0 +1,57 @@
+======================================================================
+BERT - CLASSIFICATION PERFORMANCE REPORT
+======================================================================
+Generated: 2026-10-20 09:44:08
+Total Samples: 675
+Correct: 560 (83.0%)
+Incorrect: 115 (17.0%)
+High Confidence: 674 (99.9%)
+Low Confidence: 1 (0.1%)
+
+--------------------------------------------------
+PERFORMANCE METRICS
+--------------------------------------------------
+Accuracy:              82.96%
+Precision (macro):     81.78%
+Recall (macro):        79.52%
+F1 Score (macro):      80.51%
+
+High Confidence Accuracy: 83.09%
+Low Confidence Accuracy:  0.00%
+
+--------------------------------------------------
+CONFIDENCE STATISTICS
+--------------------------------------------------
+Average Confidence:    96.97%
+Std Confidence:        8.49%
+Min Confidence:        39.45%
+Max Confidence:        99.90%
+
+Avg Confidence (Correct):   97.97%
+Avg Confidence (Incorrect): 92.15%
+
+--------------------------------------------------
+CALIBRATION METRICS
+--------------------------------------------------
+ECE:                   14.01%
+Pearson Correlation:   25.74%
+
+--------------------------------------------------
+PER-CLASS PERFORMANCE
+--------------------------------------------------
+Class                   Precision       Recall     F1 Score    Support
+---------------------------------------------------------------------
+Composite                  74.30%       77.33%       75.78%        172
+Conditional                69.23%       72.97%       71.05%         37
+Interactive                87.58%       89.81%       88.68%        314
+Sequential                 93.18%       82.00%       87.23%         50
+Structural                 84.62%       75.49%       79.79%        102
+
+--------------------------------------------------
+INTERPRETATION
+--------------------------------------------------
+• Accuracy: Good
+• Calibration (ECE): Moderate
+• Confidence-Accuracy Correlation: Moderate positive
+
+======================================================================

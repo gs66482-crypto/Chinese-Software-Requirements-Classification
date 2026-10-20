@@ -1,0 +1,9 @@
+Node accuracy = (TP + TN) / actual node samples.
+Composite Check: 506/675 = 74.96%; TP=134, TN=372, FP=131, FN=38; mean confidence=97.72%, ECE=22.75%, r=0.3408
+Interactive Check: 259/410 = 63.17%; TP=164, TN=95, FP=74, FN=77; mean confidence=98.82%, ECE=35.94%, r=0.0087
+Sequential Check: 152/172 = 88.37%; TP=6, TN=146, FP=4, FN=16; mean confidence=98.77%, ECE=10.40%, r=0.2935
+Conditional Check: 156/162 = 96.30%; TP=4, TN=152, FP=1, FN=5; mean confidence=99.19%, ECE=4.12%, r=0.0005
+Correct Structural predictions from the default branch: 51
+Final accuracy: 359/675 = 53.19%
+Node accuracy, ECE and Pearson r all evaluate binary PASS/FAIL correctness.
+Final correct predictions are the node TP counts plus correct default Structural predictions; node TP+TN counts are not added together.
