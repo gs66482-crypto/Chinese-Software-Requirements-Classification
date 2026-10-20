@@ -1,0 +1,8 @@
+Node accuracy = TP / actual node samples. Binary accuracy is reported separately.
+Composite Check: 134/675 = 19.85%
+User Action Check: 164/410 = 40.00%
+System Condition Check: 6/172 = 3.49%
+Conditional Check: 4/162 = 2.47%
+Correct Structural predictions from the default branch: 51
+Final accuracy: 359/675 = 53.19%
+Node ECE and Pearson r evaluate binary decisions and are not calculated from TP-only correctness.
